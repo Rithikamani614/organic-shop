@@ -10,9 +10,10 @@ import sec6img6 from './images/testi-thumb-1.jpg';
 import sec6img7 from './images/testi-thumb-2.jpg';
 import sec6img8 from './images/fruit-basket.webp';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {  Pagination } from 'swiper/modules';
+import {  Pagination ,Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 function Section6(){
    return(
@@ -132,7 +133,7 @@ function Section6(){
               <div >
                  <Swiper
                  className="swiper slider-nav-autoplay"
-                 modules={[ Pagination]}
+                 modules={[ Pagination ,Autoplay]}
                  spaceBetween={90}
                  slidesPerView={2}  
                 pagination={{
@@ -159,10 +160,10 @@ function Section6(){
                     slidesPerView: 2, 
                   },
                 }}
-                // autoplay={{
-                //   delay: 1000,
-                //   disableOnInteraction: false,
-                // }}
+                autoplay={{
+                  delay: 3000, 
+                  disableOnInteraction: false, 
+                }}
                  >
                   <SwiperSlide className='swipper1'>
                  <Image src={sec6img7} className='sec6img6'/>

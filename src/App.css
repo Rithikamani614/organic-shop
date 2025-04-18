@@ -827,10 +827,6 @@
         left: -3%;
         background-position: -6px -413px;
     }
-    /* .play-btn {
-        left: 13px !important;
-        bottom: -1333px !important;
-    } */
     .play-btn {
         left: 13px !important;
         bottom: -1298px !important;
@@ -967,7 +963,7 @@
     }
     .play-btn {
         left: 179px !important;
-        bottom: -1639px !important;
+        bottom: -1672px !important;
          width: 17%;
         height: 70px;
     }
@@ -1028,7 +1024,7 @@
     }
     .play-btn {
         left: 159px !important;
-        bottom: -1631px !important;
+        bottom: -1654px !important;
         }
 }
 @media screen and (max-width: 320px){
@@ -1076,7 +1072,7 @@
     }
     .play-btn {
         left: 127px !important;
-        bottom: -1599px !important;
+        bottom: -1620px !important;
          width: 20%;
         height: 61px;
         font-size: 21px;
